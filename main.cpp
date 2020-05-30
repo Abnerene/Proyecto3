@@ -56,9 +56,9 @@ int main() {
 	
 	vector <Software> software;
   software.resize(max);
-	int posD[30];
-	int posL[30];
-	int posS[30];
+	int posD[max];
+	int posL[max];
+	int posS[max];
 
  	while(archivoMaterial>>idMaterial>>titulo>>tipoMaterial>>dato1Material>>dato2Material){
 		
