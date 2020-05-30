@@ -117,8 +117,8 @@ class Fecha{
 	}
 
   friend	istream &operator >> (istream &input,Fecha &f) {
-		while(f.dd<1 || f.dd>30){
-			cout << "Dia (1-30): ";
+		while(f.dd<1 || f.dd>31){
+			cout << "Dia (1-31): ";
 			input >> f.dd;
 		}
 		while(f.mm<1 || f.mm>12){
